@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# Raw VASP calculations and trajectories belong on the research data drive.
+OUTCAR*
+OSZICAR*
+XDATCAR*
+CONTCAR*
+POSCAR*
+POTCAR*
+WAVECAR*
+CHGCAR*
+CHG
+vasprun.xml*
+vaspout.h5*
+REPORT
+stdout
+stdout.*
+slurm-*.out
+*.xyz
+*.npz
+*.xlsx
+*.xls
+# Generated analysis outputs
+NEB_extracted/
+AIMD_processed/
+AIMD_results/
+AIMD_results_updated/
+combined_xdatcar/
+postprocess-logs/
+combined-temp-energy*.csv
+file-*.csv
